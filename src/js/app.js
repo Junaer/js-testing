@@ -1,1 +1,4 @@
-// TODO: write code here
+import CardNumberWidget from './widget';
+
+const widget = new CardNumberWidget(document.querySelector('#widget-container'));
+widget.bindToDOM();
